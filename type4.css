@@ -1,0 +1,164 @@
+/* --------TEXT STYLE-------- */
+h1 {
+  width: 100%;
+  font-family: "Satoshi-Variable";
+  font-size: clamp(1.875rem, 1.2104rem + 2.7057vw, 3.375rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-block-start: 0.3em;
+  margin-block-end: 1em;
+}
+
+h2 {
+  color: #db5e03;
+  font-family: "Satoshi-Variable";
+  font-size: clamp(0.875rem, 0.7642rem + 0.451vw, 1.125rem);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+
+h3 {
+  color: #db5e03;
+  font-family: "Satoshi-Variable";
+  font-size: clamp(0.875rem, 0.7642rem + 0.451vw, 1.125rem);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-block-start: 0.05em;
+  margin-block-end: 0.05em;
+}
+
+h4 {
+  color: var(--M3-black, #000);
+  font-family: "Satoshi-Variable";
+  font-size: clamp(1.375rem, 1.2089rem + 0.6764vw, 1.75rem);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.1;
+  width: 100%;
+  margin-block-start: 0.1em;
+  margin-block-end: 0.1em;
+}
+
+p {
+  color: var(--M3-black, #000);
+  font-family: "Satoshi-Variable";
+  font-size: clamp(0.875rem, 0.7642rem + 0.451vw, 1.125rem);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25;
+  width: 90%;
+  margin-block-start: 0.05em;
+  margin-block-end: 10px;
+}
+
+.accordion-text {
+  color: var(--M3-black, #000);
+  font-family: "Satoshi-Variable";
+  font-size: clamp(0.875rem, 0.7642rem + 0.451vw, 1.125rem);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.5;
+  width: 100%;
+  margin-block-start: 0.05em;
+  margin-block-end: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    width: 90%;
+  }
+
+  p {
+    width: 60%;
+  }
+}
+
+.dida {
+  color: var(--M3-black, #000);
+  font-family: "Satoshi-Variable";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 200% */
+  width: auto;
+  margin-block-start: 0.2em;
+  margin-block-end: 1em;
+}
+
+a:-webkit-any-link {
+  color: #000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a.active {
+  color: black;
+  text-decoration: none;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+a.active#language {
+  color: rgb(110, 110, 110);
+  text-decoration: none;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  border: none;
+  background: none;
+  color: #797979;
+  font-family: "Satoshi-Variable";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  text-decoration-line: underline;
+
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.footer {
+  text-decoration: none;
+  color: #000;
+}
+/* ------------------------- */
+
+/* --------------ACCORDION---------------- */
+.accordion {
+  width: 100%;
+}
+.accordion_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.accordion_left {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--M3-black, #000);
+}
